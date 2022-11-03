@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/general.css">
+    <link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/queries.css">
+    <title>Devity - Creative digital agency</title>
+</head>
+<body>
+	<header class="header" id="header">
+		<a href="#" class="header__logo"><img src="./img/devity-logo.svg"></a>
+		<nav class="header__nav">
+			<ul class="header__nav-link-box">
+				<li><a href="./index.html" class="primary-link header__nav-link local-link">Home</a></li>
+				<li><a href="#contact" class="primary-link header__nav-link local-link">Contact us</a> </li>
+				<li><a href="#services" class="primary-link header__nav-link local-link">What we do</a></li>
+				<li><a href="#pricing" class="primary-link header__nav-link local-link">Pricing</a></li>
+			</ul>
+		</nav>
+		<div class="header__btn-box">
+			<a href="#contact" class="primary__btn header__nav-cta">Get started</a>
+			<button class="btn-mobile-nav local-link">
+				<ion-icon name="menu-outline" class="icon-mobile-nav"></ion-icon>
+				<ion-icon name="close-outline" class="icon-mobile-nav"></ion-icon>
+			</button>
+		</div>
+	</header>
+	<main>
+		<section class="section-hero" id="hero">
+			<div class="container">
+				<div class="hero__text-box">
+					<h1 class="hero__text-box-heading">
+						We are a digital agency specializes in development
+					</h1>
+					<p class="hero__text-box-desc">
+						Devity is a team of talented developers, provides best solution for all your development needs.
+					</p>
+				</div>
+				<div class="hero__text-box--cta-box">
+					<a href="#contact" class="primary__btn hero__text-box-cta-primary local-link">Discuss project</a>
+					<a href="#portfolio" class="secondary__btn hero__text-box-cta-secondary local-link">Our portfolio</a>
+				</div>
+				<img src="./img/hero-illustration.svg" alt="people-working-on-a-project" class="hero-img">
+			</div>
+		</section>
+		<section class="section-featured" id="featured">
+			<div class="featured__img-box">
+				<img src="./img/asana-logo.svg" alt="asana-logo" class="featured__img">
+				<img src="./img/google-logo.svg" alt="google-logo" class="featured__img">
+				<img src="./img/logitech-logo.svg" alt="logitech-logo" class="featured__img">
+				<img src="./img/stripe-logo.svg" alt="stripe-logo" class="featured__img">
+				<img src="./img/slack-logo.svg" alt="slack-logo" class="featured__img">
+			</div>
+		</section>
+		<section class="section-about" id="about">
+			<div class="container grid grid-2-and-4 grid-gap-small margin-bottom-max">
+				<div class="about__heading-box">
+					<span class="subheading">Let’s connect</span>
+					<h2 class="heading-secondary">Getting you connected to your audience</h2>
+					<div class="about__analytics-box">
+						<div class="about__analytics-visit">
+							<p>7.4K</p>
+							<p>Daily visits</p>
+						</div>
+						<div class="about__analytics-clients">
+							<p>200+</p>
+							<p>Clients</p>
+						</div>
+					</div>
+				</div>
+				<div class="about__para-box">
+					<p>
+						We are now in the age of the audience – where, the people are trying to reach are at the driving seat. We know audience are less tolerant of advertising than ever. Advertising today is received on an audience’s terms, not a brand’s and they will dismiss the unwelcome instantly. 
+					</p>
+					<p>
+						We at devity are driven by technology and data as much as design and content to ensure we fulfill our key mission of helping our clients achieve their success. Our digital solutions uses data to segment consumers by demographics or interests in order to find the holy grail that is the right pers.
+					</p>
+				</div>
+			</div>
+			<div class="about-video-box">
+				<video controls class="about-video" poster="./img/about-video-cover.png">
+					<source src="./img/about-video.mp4" type="video/mp4">
+				</video>
+			</div>
+		</section>
+		<section class="section-services" id="services">
+			<div class="container">
+				<span class="subheading">Our services</span>
+				<h2 class="heading-secondary">What do you need?</h2>
+			</div>
+			<div class="container grid grid--2-cols grid-gap-v-small">
+				<div class="services__card">
+					<img src="./img/web-dev-illustration.svg" alt="web-development-icon" class="service-icon">
+					<h3 class="service-heading">Web development</h3>
+					<p class="service-desc">Wheather you want a simple website for your company or a complex fully functional web application, we will be always being happy to help you out.</p>
+					<a href="#" class="primary-link service-link">Learn more &rarr;</a>
+				</div>
+				<div class="services__card">
+					<img src="./img/app-dev-illustration.svg" alt="app-development-icon" class="service-icon">
+					<h3 class="service-heading">App development</h3>
+					<p class="service-desc">An app particularly made for your brand can make you look different from your competitors and make your brand reorganization easy. </p>
+					<a href="#" class="primary-link service-link">Learn more &rarr;</a>
+				</div>
+				<div class="services__card">
+					<img src="./img/landing-page-dev-illustration.svg" alt="landing-page-development-icon" class="service-icon">
+					<h3 class="service-heading">Landing page development</h3>
+					<p class="service-desc">If you want to promote your product or any app the landing page is perfect solution to take the leads or convert them into paying customers. </p>
+					<a href="#" class="primary-link service-link">Learn more &rarr;</a>
+				</div>
+				<div class="services__card">
+					<img src="./img/ecommerce-dev-illustration.svg" alt="ecommerce-development-icon" class="service-icon">
+					<h3 class="service-heading">Ecommerce development</h3>
+					<p class="service-desc">Ecommerce is the future, if you want to sell your products online and still don’t have an ecommerce website then you are in big danger. </p>
+					<a href="#" class="primary-link service-link">Learn more &rarr;</a>
+				</div>
+			</div>
+		</section>
+		<section class="section-portfolio" id="portfolio">
+			<div class="container">
+				<span class="subheading">Our portfolio</span>
+				<h2 class="heading-secondary">The projects we have worked on</h2>
+			</div>
+			<div class="container grid grid-3-and-2 grid-gap-medium">
+				<div class="portfolio__project-primary">
+					<img src="./img/walloet-project-img.png" class="portfolio__project-img" alt="walloet-project-img">
+					<h3 class="portfolio__project-heading">Walloet business landing page</h3>
+					<p class="portfolio__project-desc">A secure and fast way to send and receive money using wallent or bank. </p>
+					<a href="#" class="portfolio__project-cta">Learn more about the project &rarr;</a>
+				</div>
+				<div class="portfolio__project-secondary-box">
+					<div class="portfolio__project-secondary">
+						<img src="./img/nftise-project-img.png" class="portfolio__project-img" alt="nftise-project-img">
+						<h3 class="portfolio__project-heading">Nftise mobile app </h3>
+						<p class="portfolio__project-desc">Nftise is a NFT trading app where you can buy or sell trending NFTs.</p>
+						<a href="#" class="portfolio__project-cta">Learn more about the project &rarr;</a>
+					</div>
+					<div class="portfolio__project-secondary">
+						<img src="./img/taski-project-img.png" class="portfolio__project-img" alt="taski-project-img">
+						<h3 class="portfolio__project-heading">Taski web app</h3>
+						<p class="portfolio__project-desc">Taski is a project management tool that let you do all  your work in one place. </p>
+						<a href="#" class="portfolio__project-cta">Learn more about the project &rarr;</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section-how-it-works" id="hiw">
+			<div class="container">
+				<span class="subheading">How it works</span>
+				<h2 class="heading-secondary">We believe in process</h2>
+			</div>
+			<div class="container">
+				<div class="how-it-works__timeline">
+					<div class="how-it-works__step grid grid--2-cols grid-gap-max">
+						<div class="how-it-works__left">
+							<img src="./img/planning-illustration.svg" class="how-it-works__img" alt="planning-illustration">
+						</div>
+						<div class="how-it-works__right">
+							<span class="how-it-works__step-number">1</span>
+							<h3 class="how-it-works__step-heading">Planning</h3>
+							<p class="how-it-works__step-desc">
+								You got an idea and you want to develop it, at this stage we will discuss and brainstorm about your idea and plan about it.
+							</p>
+						</div>
+					</div>
+					<div class="how-it-works__step grid grid--2-cols grid-gap-max">
+						<div class="how-it-works__left">
+							<span class="how-it-works__step-number">2</span>
+							<h3 class="how-it-works__step-heading">Design</h3>
+							<p class="how-it-works__step-desc">
+								After discussing and planning about the project we focus on how our project will look and feel.
+							</p>
+						</div>
+						<div class="how-it-works__right">
+							<img src="./img/design-illustration.svg" class="how-it-works__img" alt="design-illustration">
+						</div>
+					</div>
+					<div class="how-it-works__step grid grid--2-cols grid-gap-max">
+						<div class="how-it-works__left">
+							<img src="./img/devlopment-illustration.svg" class="how-it-works__img" alt="devlopment-illustration">
+						</div>
+						<div class="how-it-works__right">
+							<span class="how-it-works__step-number">3</span>
+							<h3 class="how-it-works__step-heading">Development</h3>
+							<p class="how-it-works__step-desc">
+								Once we are done with design phase we actually start the development of your project.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section-testimonials" id="testimonials">
+			<div class="container">
+				<span class="subheading">testimonials</span>
+				<h2 class="heading-secondary">What’s our client say about us</h2>
+			</div>
+			<div class="container grid grid--2-cols grid-gap-large">
+				<div class="testimonial__card testimonial__card--1">
+					<img src="./img/review-stars.svg" class="testimonial__stars" alt="review stars">
+					<h4 class="testimonial__heading">Above the expectations</h4>
+					<p class="testimonial__para">
+						“Every single area of improvement we have brought to them, they have addressed by exceeding our expectations”
+					</p>
+					<img src="./img/amazon-logo-reviews.svg" class="testimonial__company-logo" alt="amazon logo">
+				</div>
+				<div class="testimonial__card testimonial__card--2">
+					<img src="./img/review-stars.svg" class="testimonial__stars" alt="review stars">
+					<h4 class="testimonial__heading">Professional and enthusiast</h4>
+					<p class="testimonial__para">
+						“The best thing about Devity is the professionalism and enthusiasm to do their best for us”
+					</p>
+					<img src="./img/stripe-logo-reviews.svg" class="testimonial__company-logo" alt="stripe logo">
+				</div>
+			</div>
+			<div class="container">
+				<div class="testimonial__card testimonial__card--3">
+					<img src="./img/review-stars.svg" class="testimonial__stars" alt="review stars">
+					<h4 class="testimonial__heading">The most disciplined agency ever</h4>
+					<p class="testimonial__para">
+						“Their commitment to the project budget and timeline is very impressive”
+					</p>
+					<img src="./img/asana-logo-reviews.svg" class="testimonial__company-logo" alt="asana logo">
+				</div>
+			</div>
+		</section>
+		<section class="section-pricing" id="pricing">
+			<div class="container">
+				<span class="subheading">Pricing</span>
+				<h2 class="heading-secondary">Choose the right plan for your business</h2>
+			</div>
+			<div class="pricing__toogle-box">
+				<span class="pricing__monthly">Monthly</span>
+				<label for="myToogle" class="toogle">
+					<input type="checkbox" id="myToogle" class="toogle__input">
+					<div class="toogle__fill"></div>
+				</label>
+				<span class="pricing__yearly">Yearly</span>
+			</div>
+			<div class="container grid grid--3-cols grid-gap-v-small">
+				<div class="pricing__card pricing__card--primary">
+					<h4 class="pricing__pack-name">Basic</h4>
+					<p class="pricing__pack-price">
+						<span>$</span><span class="price-basic">29.99</span><span>/per month</span>
+					</p>
+					<ul class="pricing__feature-list">
+						<li class="pricing__feature-item"><ion-icon name="checkmark-outline" class="feature-icon"></ion-icon>One project</li>
+						<li class="pricing__feature-item"><ion-icon name="checkmark-outline" class="feature-icon"></ion-icon>Custom dashboard</li>
+						<li class="pricing__feature-item"><ion-icon name="checkmark-outline" class="feature-icon"></ion-icon>Unlimited revisions</li>
+					</ul>
+					<a href="#" class="primary__btn pricing__cta">Buy now</a>
+				</div>
+				<div class="pricing__card pricing__card--secondary">
+					<h4 class="pricing__pack-name">Standard</h4>
+					<p class="pricing__pack-price">
+						<span>$</span><span class="price-standard">69.99</span><span>/per month</span>
+					<ul class="pricing__feature-list">
+						<li class="pricing__feature-item"><ion-icon name="checkmark-outline" class="feature-icon"></ion-icon>Two project</li>
+						<li class="pricing__feature-item"><ion-icon name="checkmark-outline" class="feature-icon"></ion-icon>Custom dashboard</li>
+						<li class="pricing__feature-item"><ion-icon name="checkmark-outline" class="feature-icon"></ion-icon>Unlimited revisions</li>
+					</ul>
+					<a href="#" class="secondary__btn pricing__cta">Buy now</a>
+				</div>
+				<div class="pricing__card pricing__card--secondary">
+					<h4 class="pricing__pack-name">Professional</h4>
+					<p class="pricing__pack-price">
+						<span>$</span><span class="price-professional">99.99</span><span>/per month</span>
+					<ul class="pricing__feature-list">
+						<li class="pricing__feature-item"><ion-icon name="checkmark-outline" class="feature-icon"></ion-icon>Five project</li>
+						<li class="pricing__feature-item"><ion-icon name="checkmark-outline" class="feature-icon"></ion-icon>Custom dashboard</li>
+						<li class="pricing__feature-item"><ion-icon name="checkmark-outline" class="feature-icon"></ion-icon>Unlimited revisions</li>
+					</ul>
+					<a href="#" class="secondary__btn pricing__cta">Buy now</a>
+				</div>
+			</div>
+		</section>
+		<section class="section-contact" id="contact">
+			<div class="container">
+				<span class="subheading">contact us</span>
+				<h2 class="heading-secondary">Don’t hesitate to reach us</h2>
+			</div>
+			<div class="container grid grid--2-cols grid-gap-large">
+				<div class="contact__form-box">
+					<form action="#" class="contact__form">
+						<input type="text" name="full-name" placeholder="Your name">
+						<input type="email" name="email" placeholder="Email address">
+						<textarea name="message" placeholder="Message/Project description/Queries"></textarea>
+						<button type="submit" class="contact__form-cta">Send</button>
+					</form>
+				</div>
+				<div class="contact__options-box grid grid--2-cols grid--2-rows">
+					<div class="contact__option">
+						<img src="./img/email-icon.svg" class="contact__option-icon" alt="email icon">
+						<h4 class="contact__option-name">Email</h4>
+						<p class="contact__option-content">contact@devity.com</p>
+					</div>
+					<div class="contact__option">
+						<img src="./img/phone-icon.svg" class="contact__option-icon" alt="phone icon">
+						<h4 class="contact__option-name">Phone</h4>
+						<p class="contact__option-content">(850) 362-9581</p>
+					</div>
+					<div class="contact__option">
+						<img src="./img/working-hours-icon.svg" class="contact__option-icon" alt="working hours icon">
+						<h4 class="contact__option-name">Hours of operation</h4>
+						<p class="contact__option-content">Monday – Friday<br>09:00 – 17:00</p>
+					</div>
+					<div class="contact__option">
+						<img src="./img/address-icon.svg" class="contact__option-icon" alt="address icon">
+						<h4 class="contact__option-name">Our address</h4>
+						<p class="contact__option-content">1500 Freedom Self Storage<br>Rd, Fort Walton Beach</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section-outro" id="outro">
+			<h2 class="outro__heading">Have a great idea in your mind?</h2>
+			<a href="#" class="outro__cta outro__cta--primary">Get started</a>
+			<a href="#" class="outro__cta secondary__btn">Contact us</a>
+		</section>
+	</main>
+	<footer id="footer">
+		<div class="grid grid--2-cols">
+			<div class="footer__logo-area">
+				<img src="./img/devity-logo.svg" class="footer__logo">
+				<address class="footer__address">1500 Freedom Self Storage Rd, Fort Walton Beac</address>
+			</div>
+			<div class="footer__links-area grid grid--4-cols">
+				<ul class="footer__link-box">
+					<h5 class="footer__link-heading">Discover</h5>
+					<li><a href="#" class="primary-link footer__link">About us</a></li>
+					<li><a href="#" class="primary-link footer__link">Contact</a></li>
+					<li><a href="#" class="primary-link footer__link">Pricing</a></li>
+					<li><a href="#" class="primary-link footer__link">FAQs</a></li>
+				</ul>
+				<ul class="footer__link-box">
+					<h5 class="footer__link-heading">Resources</h5>
+					<li><a href="#" class="primary-link footer__link">Security</a></li>
+					<li><a href="#" class="primary-link footer__link">Global</a></li>
+					<li><a href="#" class="primary-link footer__link">Request</a></li>
+				</ul>
+				<ul class="footer__link-box">
+					<h5 class="footer__link-heading">Discover</h5>
+					<li><a href="#" class="primary-link footer__link">Web development</a></li>
+					<li><a href="#" class="primary-link footer__link">App development</a></li>
+					<li><a href="#" class="primary-link footer__link">Landing page development</a></li>
+					<li><a href="#" class="primary-link footer__link">E-commerce development</a></li>
+				</ul>
+				<ul class="footer__link-box">
+					<h5 class="footer__link-heading">Social</h5>
+					<li><a href="#" class="primary-link footer__link">Twitter</a></li>
+					<li><a href="#" class="primary-link footer__link">Dribbble</a></li>
+					<li><a href="#" class="primary-link footer__link">Behance</a></li>
+					<li><a href="#" class="primary-link footer__link">Instagram</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="devity__rights-and-terms grid grid--2-cols">
+			<p class="footer__devity-rights">2022 Devity, All rights reserved</p>
+			<p class="footer__devity-terms"><a href="#" class="primary-link">Terms & Conditions</a>, <a href="#" class="primary-link">Privacy policy</a></p>
+		</div>
+		<div class="devity__credits">
+			<p>Design and developed with <span class="heart">❤</span> by <a href="https://www.upwork.com/freelancers/~01257c6c6152f81be8" target="_blank">Yash Pandey</a> in beautiful city of lakes Udaipur.</p>
+		</div>
+	</footer>
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+	<script src="./js/script.js"></script>
+</body>
+</html>
